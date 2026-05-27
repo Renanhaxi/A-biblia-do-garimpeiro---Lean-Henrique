@@ -19,14 +19,14 @@
                         sans: ['Inter', 'sans-serif'],
                     },
                     colors: {
-                        'bg-deep': '#0B0F12',       // Preto mineral profundo (Mata/Lama)
-                        'bg-alt': '#131A1F',        // Cinza chumbo escuro
-                        'bg-card': '#1C262F',       // Container tipo Dossiê Militar
-                        'text-main': '#F8FAFC',     // Branco puro gelo
-                        'text-muted': '#94A3B8',    // Cinza fosco para leitura pesada
-                        'accent': '#D4AF37',        // Dourado Ouro Bruto Metálico
-                        'accent-hover': '#AA8417',  // Dourado Envelhecido para hover
-                        'border-dark': '#25333E',   // Divisores de seção integrados
+                        'bg-deep': '#F7F4EB',       // Alabastro/Pergaminho Mineral (Base Clara e Imponente)
+                        'bg-alt': '#EAE4D5',        // Tom de Areia de Rio/Linho Envelhecido para transições
+                        'bg-card': '#FFFFFF',       // Cards puramente brancos para saltar aos olhos com sombra pesada
+                        'text-main': '#1A1D20',     // Grafite Fechado/Carvão (Leitura de altíssimo contraste)
+                        'text-muted': '#4A525A',    // Cinza Silex para descrições secundárias
+                        'accent': '#A37F14',        // Dourado Ouro Velho (Sofisticado e visível no fundo claro)
+                        'accent-hover': '#7F620E',  // Dourado Escurecido para ação de botões
+                        'border-dark': '#DDD5C3',   // Bordas minerais que imitam divisórias de arquivos físicos
                     }
                 }
             }
@@ -42,113 +42,118 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '834853195700998'); // Mantenha ou atualize com o pixel do Henrique
+fbq('init', '834853195700998');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=834853195700998&ev=PageView&noscript=1"
 /></noscript>
 </head>
-<body class="bg-bg-deep font-sans text-text-muted antialiased">
+<body class="bg-bg-deep font-sans text-text-muted antialiased bg-gradient-to-b from-[#F7F4EB] via-[#FDFBF7] to-[#EAE4D5]">
 
-    <!-- BARRA TOPO: FOMENTO DE OPÇÃO REAL -->
-    <div class="bg-accent text-bg-deep text-center p-3 font-bold sticky top-0 z-50 text-sm md:text-base shadow-md uppercase tracking-wider">
-        <span>⚠️ AVISO: Bônus de Suporte para Emissão de Visto Grátis Hoje!</span>
+    <!-- BARRA TOPO: ANCORAGEM DE RESTRITO -->
+    <div class="bg-text-main text-bg-deep text-center p-3 font-bold sticky top-0 z-50 text-sm md:text-base shadow-lg uppercase tracking-widest border-b-2 border-accent">
+        <span>⚠️ ATENÇÃO: CONTEÚDO EXCLUSIVO DE ENGENHARIA DE CAMPO E LOGÍSTICA</span>
     </div>
 
-    <!-- HERO SECTION: O ALVO PRINCIPAL -->
-    <header class="bg-bg-deep py-12 md:py-20 border-b border-border-dark overflow-hidden">
+    <!-- HERO SECTION: TEXTURA VISUAL POR DEGRADÊ -->
+    <header class="py-16 md:py-24 border-b border-border-dark bg-gradient-to-br from-[#F7F4EB] to-[#FFFFFF]">
         <div class="container mx-auto max-w-6xl px-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div class="text-center md:text-left order-2 md:order-1">
-                    <h1 class="text-3xl md:text-5xl font-extrabold leading-tight text-text-main">
-                        A Enciclopédia Real do Trecho: O Guia Definitivo do Garimpeiro no Suriname.
+                    <span class="inline-block bg-text-main text-accent text-xs font-bold uppercase tracking-widest px-3 py-1 rounded mb-4">Dossiê Estratégico Autorizado</span>
+                    <h1 class="text-3xl md:text-5xl font-black leading-tight text-text-main tracking-tight">
+                        A Enciclopédia Real do Trecho: <span class="text-accent">O Guia Definitivo</span> do Garimpeiro no Suriname.
                     </h1>
-                    <p class="mt-6 text-base md:text-lg text-text-muted">Não entre na mata às盲gas. Descubra a rota exata da logística, sobrevivência real em currutelas, funcionamento técnico de motores e a blindagem contra os golpes do norte.</p>
+                    <p class="mt-6 text-base md:text-lg text-text-muted leading-relaxed">Descubra os bastidores reais e a engenharia por trás da rota do ouro no norte. O mapa tático definitivo de logística, sobrevivência e proteção contra golpes para quem busca entender a engrenagem das currutelas de forma técnica e profissional.</p>
                     
                     <ul class="mt-8 space-y-4 text-left inline-block md:block">
                         <li class="flex items-start">
-                            <svg class="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-text-main text-sm md:text-base">Para quem quer pisar no Suriname 100% legalizado, livre de prisões e extorsões de fronteira.</span>
+                            <div class="bg-accent text-white rounded-full p-1 mr-3 flex-shrink-0 mt-0.5 shadow-sm">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-text-main text-sm md:text-base font-semibold">Instruções burocráticas rigorosas para trânsito internacional seguro e sem riscos na fronteira.</span>
                         </li>
                         <li class="flex items-start">
-                            <svg class="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-text-main text-sm md:text-base">Para quem precisa dominar o funcionamento de máquinas, PC e o sistema de Meia-Praça.</span>
+                            <div class="bg-accent text-white rounded-full p-1 mr-3 flex-shrink-0 mt-0.5 shadow-sm">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-text-main text-sm md:text-base font-semibold">Anatomia das grotas: o funcionamento de motores, bombas e as diretrizes do sistema Meia-Praça.</span>
                         </li>
                         <li class="flex items-start">
-                            <svg class="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-text-main text-sm md:text-base">Para quem busca o Bambúrrio financeiro, mas exige blindar a própria vida contra a Malária e traições.</span>
+                            <div class="bg-accent text-white rounded-full p-1 mr-3 flex-shrink-0 mt-0.5 shadow-sm">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-text-main text-sm md:text-base font-semibold">Segurança preventiva: o checklist de equipamentos táticos de campo e proteção em ambiente de mata.</span>
                         </li>
                     </ul>
                     
                     <div class="mt-10">
-                        <a href="#offer" class="inline-block w-full md:w-auto bg-accent text-bg-deep font-bold text-lg md:text-xl py-4 px-8 rounded-lg shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:bg-accent-hover hover:-translate-y-1 transition-all duration-300 uppercase tracking-tight">
-                            Quero Acessar o Guia do Trecho
+                        <a href="#offer" class="inline-block text-center w-full md:w-auto bg-accent text-white font-black text-lg md:text-xl py-4 px-10 rounded shadow-[0_5px_15px_rgba(163,127,20,0.4)] hover:bg-accent-hover hover:-translate-y-1 transition-all duration-300 uppercase tracking-wider">
+                            Acessar o Manual do Garimpeiro
                         </a>
                     </div>
                 </div>
                 
-                <div class="order-1 md:order-2 flex justify-center w-full px-4 sm:px-8 md:px-0">
-                    <!-- Henrique deve subir a imagem 3D do e-book dele aqui -->
-                    <img src="https://i.postimg.cc/C5KMyFZv/capa-pare-de-procrastinar-3-em-1.png" alt="Capa da Enciclopédia Real do Trecho" class="w-full max-w-sm md:max-w-full h-auto object-contain rounded-lg drop-shadow-[0_0_25px_rgba(212,175,55,0.15)]">
+                <div class="order-1 md:order-2 flex justify-center w-full px-4 transform hover:scale-[1.02] transition-transform duration-500">
+                    <img src="https://i.ibb.co/ynpkJtyL/capa-a-biblia-do-garimpeiro.jpg" alt="capa-a-biblia-do-garimpeiro" class="w-full max-w-sm md:max-w-md h-auto object-contain rounded-lg shadow-[0_15px_35px_rgba(26,29,32,0.15)] border-4 border-white">
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- PROVA SOCIAL REAL DO MEIO (SUBSTITUINDO OS ESTUDANTES) -->
-    <section class="bg-bg-alt py-16 border-b border-border-dark">
-        <div class="container mx-auto max-w-5xl px-6 text-center">
-            <h2 class="text-2xl md:text-3xl font-bold text-text-main mb-10">Veteranos que conhecem a realidade das baixadas:</h2>
+    <!-- PROVA SOCIAL: QUEBRA DA PLANICIE BRANCA -->
+    <section class="bg-bg-alt py-16 border-b border-border-dark relative overflow-hidden">
+        <div class="container mx-auto max-w-5xl px-6 text-center relative z-10">
+            <h2 class="text-2xl md:text-3xl font-black text-text-main mb-10 tracking-tight">Profissionais que operam no mercado validam a precisão técnica:</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-                <div class="bg-bg-card p-6 md:p-8 rounded-xl border border-border-dark shadow-lg relative">
-                    <span class="text-4xl text-accent absolute top-4 left-4 opacity-20">"</span>
-                    <p class="text-text-main italic relative z-10 pt-4">"A maioria dos moleques vai pro Suriname achando que é festa de Instagram. O Henrique abriu os olhos sobre a logística dos hotéis de Paramaribo. Me poupou um golpe certo de patrão mal intencionado."</p>
-                    <p class="text-accent font-bold mt-4">- Cleiton R., Operador de PC</p>
+                <div class="bg-bg-card p-8 rounded-xl border border-border-dark shadow-[0_10px_25px_rgba(0,0,0,0.03)] relative group hover:border-accent transition-colors duration-300">
+                    <span class="text-5xl text-accent absolute top-4 left-4 opacity-10 font-serif">“</span>
+                    <p class="text-text-main italic relative z-10 pt-4 leading-relaxed">"Muitos entram na rota do norte sem compreender a engrenagem burocrática e urbana da capital. O Henrique expõe os cenários reais de Paramaribo antes de qualquer descida. Esse nível de informação evita perdas financeiras graves."</p>
+                    <p class="text-accent font-black mt-6 tracking-wide uppercase text-sm">— Cleiton R., Operador de PC</p>
                 </div>
-                <div class="bg-bg-card p-6 md:p-8 rounded-xl border border-border-dark shadow-lg relative">
-                    <span class="text-4xl text-accent absolute top-4 left-4 opacity-20">"</span>
-                    <p class="text-text-main italic relative z-10 pt-4">"O checklist da farmácia de emergência e as botas nitrílicas salvaram meus dois meses de brefo na grota profunda. Conteúdo bruto, sem enrolação."</p>
-                    <p class="text-accent font-bold mt-4">- Raimundo N., Meia-Praça</p>
+                <div class="bg-bg-card p-8 rounded-xl border border-border-dark shadow-[0_10px_25px_rgba(0,0,0,0.03)] relative group hover:border-accent transition-colors duration-300">
+                    <span class="text-5xl text-accent absolute top-4 left-4 opacity-10 font-serif">“</span>
+                    <p class="text-text-main italic relative z-10 pt-4 leading-relaxed">"A organização interna e os checklists estruturados para manter a estabilidade em campo salvam o peão. É um material cirúrgico, focado estritamente em técnica de sobrevivência e proteção."</p>
+                    <p class="text-accent font-black mt-6 tracking-wide uppercase text-sm">— Raimundo N., Meia-Praça</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ANATOMIA DO PRODUTO: AS 3 GRANDES FASES LOGÍSTICAS -->
-    <section class="bg-bg-deep py-16 md:py-24 border-b border-border-dark">
+    <!-- PILARES: PURO DESEJO / TEXTURA ESCURA DE FUNDO MUDADA PARA GRADIENTE SUAVE -->
+    <section class="py-16 md:py-24 border-b border-border-dark bg-gradient-to-tr from-[#FFFFFF] via-[#FDFBF7] to-[#F7F4EB]">
         <div class="container mx-auto max-w-6xl px-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                 
                 <div class="flex flex-col items-center justify-center gap-6 w-full order-1 md:order-1">
-                    <!-- Imagens dos mockups internos ou capítulos do livro -->
-                    <img src="https://i.postimg.cc/xNRgYK8t/Capa-Parede-Procrastinarvol1.png" alt="Guia do Garimpeiro" class="w-48 sm:w-56 md:w-64 rounded-lg shadow-2xl shadow-accent/20 transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://i.ibb.co/ynpkJtyL/capa-a-biblia-do-garimpeiro.jpg" alt="capa-a-biblia-do-garimpeiro" class="w-56 sm:w-64 md:w-72 rounded-lg shadow-[0_20px_40px_rgba(0,0,0,0.12)] border-2 border-border-dark transform hover:rotate-2 transition-transform duration-300">
                 </div>
 
-                <div class="text-left order-2 md:order-2 mt-8 md:mt-0">
-                    <h2 class="text-3xl md:text-4xl font-bold text-text-main mb-6 leading-tight">O Conhecimento de Campo que <span class="text-accent">Salva Vidas e Garante o Ouro.</span></h2>
-                    <p class="text-base md:text-lg text-text-muted mb-8">Esqueça falsas promessas de internet. Este manual foi desenhado por quem deitou na mata e viveu a engrenagem real do ouro em 3 pilares estratégicos:</p>
+                <div class="text-left order-2 md:order-2">
+                    <h2 class="text-3xl md:text-4xl font-black text-text-main mb-6 leading-tight tracking-tight">A Estratégia de Campo que Separa os <span class="text-accent">Veteranos dos Amadores.</span></h2>
+                    <p class="text-base md:text-lg text-text-muted mb-8 leading-relaxed">Este manual organiza com precisão analítica os códigos internos, os protocolos operacionais e a gestão de recursos fundamentais para blindar sua caminhada:</p>
                     
-                    <ul class="space-y-6">
+                    <ul class="space-y-8">
                         <li class="flex items-start">
-                            <span class="text-accent font-bold text-xl mr-4 mt-0.5">01.</span>
+                            <span class="text-accent font-black text-2xl mr-4 leading-none bg-bg-alt px-3 py-1 rounded">01</span>
                             <div>
-                                <strong class="text-text-main block mb-1 text-lg">FRONTEIRA E DOCUMENTAÇÃO LEGAL</strong> 
-                                <span class="text-sm md:text-base text-text-muted">A rota exata para emissão de e-Visa oficial, passaporte sem retenção na PF e o prazo crítico da ANVISA para vacina da febre amarela. Sem chances de deportação.</span>
+                                <strong class="text-text-main block mb-1 text-lg font-bold uppercase tracking-wide">Diretrizes de Fronteira e Trâmite</strong> 
+                                <span class="text-sm md:text-base text-text-muted leading-relaxed">As orientações corretas para o preenchimento seguro das plataformas eletrônicas de e-Visa governamental, validações de segurança em passaportes e regras de prazos em órgãos de saúde internacional.</span>
                             </div>
                         </li>
                         <li class="flex items-start">
-                            <span class="text-accent font-bold text-xl mr-4 mt-0.5">02.</span>
+                            <span class="text-accent font-black text-2xl mr-4 leading-none bg-bg-alt px-3 py-1 rounded">02</span>
                             <div>
-                                <strong class="text-text-main block mb-1 text-lg">A MOCHILA DE AÇO E ANTIGOLPE</strong> 
-                                <span class="text-sm md:text-base text-text-muted">O checklist militar de vestuário nitrílico, pomadas contra assaduras de lama e a farmácia pessoal contra a Malária severa. Além das diretrizes para não ser roubado em acampamentos hostis.</span>
+                                <strong class="text-text-main block mb-1 text-lg font-bold uppercase tracking-wide">Logística Operacional de Suprimentos</strong> 
+                                <span class="text-sm md:text-base text-text-muted">A engenharia prática das áreas de extração. O gerenciamento de campo focado em manutenção de equipamentos e a listagem técnica de materiais indispensáveis para mitigar riscos na mata.</span>
                             </div>
                         </li>
                         <li class="flex items-start">
-                            <span class="text-accent font-bold text-xl mr-4 mt-0.5">03.</span>
+                            <span class="text-accent font-black text-2xl mr-4 leading-none bg-bg-alt px-3 py-1 rounded">03</span>
                             <div>
-                                <strong class="text-text-main block mb-1 text-lg">SISTEMA MEIA-PRAÇA E NETWORKING</strong> 
-                                <span class="text-sm md:text-base text-text-muted">Aprenda o vocabulário das currutelas, os 3 formatos de extração pesada e o segredo tático dos hostels de Paramaribo para conseguir vagas de trabalho direto com os donos de PC.</span>
+                                <strong class="text-text-main block mb-1 text-lg font-bold uppercase tracking-wide">Cultura, Parcerias e Contratação</strong> 
+                                <span class="text-sm md:text-base text-text-muted">Domine as normas de convívio social das currutelas, os jargões e termos técnicos do trecho e o funcionamento da divisão Meia-Praça para interagir de igual para igual nas janelas de alta demanda.</span>
                             </div>
                         </li>
                     </ul>
@@ -157,162 +162,163 @@ src="https://www.facebook.com/tr?id=834853195700998&ev=PageView&noscript=1"
         </div>
     </section>
 
-    <!-- ENTREGÁVEIS PRÁTICOS (MODULAÇÃO GRID DE BENEFÍCIOS) -->
+    <!-- CARDS DE DOMÍNIO TÉCNICO COM FUNDO REFORÇADO -->
     <section class="bg-bg-alt py-16 md:py-20 border-b border-border-dark">
         <div class="container mx-auto max-w-6xl px-6 text-center">
-             <h2 class="text-3xl font-bold text-text-main mb-12">O que você vai dominar na prática:</h2>
+             <h2 class="text-3xl font-black text-text-main mb-12 tracking-tight">Conhecimentos fundamentais contidos no dossiê:</h2>
              
              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent/50 transition-colors shadow-lg">
+                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent transition-all duration-300 shadow-md">
                     <h3 class="font-bold text-text-main text-lg flex items-center">
-                        <svg class="w-6 h-6 mr-3 text-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h.01a1 1 0 100-2H10zm3 0a1 1 0 000 2h.01a1 1 0 100-2H13z" clip-rule="evenodd"></path></svg>
-                        Trâmite de e-Visa Sem Erros
+                        <span class="w-2 h-6 bg-accent mr-3 block rounded-sm"></span>
+                        Orientação de e-Visa Sem Erros
                     </h3>
                 </div>
-                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent/50 transition-colors shadow-lg">
+                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent transition-all duration-300 shadow-md">
                     <h3 class="font-bold text-text-main text-lg flex items-center">
-                        <svg class="w-6 h-6 mr-3 text-accent" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
-                        Logística de Custos Mínimos
+                        <span class="w-2 h-6 bg-accent mr-3 block rounded-sm"></span>
+                        Mapeamento de Fluxos Logísticos
                     </h3>
                 </div>
-                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent/50 transition-colors shadow-lg">
+                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent transition-all duration-300 shadow-md">
                     <h3 class="font-bold text-text-main text-lg flex items-center">
-                        <svg class="w-6 h-6 mr-3 text-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
-                        Dicionário Exclusivo do Trecho
+                        <span class="w-2 h-6 bg-accent mr-3 block rounded-sm"></span>
+                        Vocabulário e Jargões Técnicos
                     </h3>
                 </div>
-                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent/50 transition-colors shadow-lg">
+                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent transition-all duration-300 shadow-md">
                     <h3 class="font-bold text-text-main text-lg flex items-center">
-                        <svg class="w-6 h-6 mr-3 text-accent" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path></svg>
-                        Farmácia Anti-Malária Rígida
+                        <span class="w-2 h-6 bg-accent mr-3 block rounded-sm"></span>
+                        Prevenção e Protocolos de Saúde
                     </h3>
                 </div>
-                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent/50 transition-colors shadow-lg">
+                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent transition-all duration-300 shadow-md">
                     <h3 class="font-bold text-text-main text-lg flex items-center">
-                        <svg class="w-6 h-6 mr-3 text-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.022 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
-                        Segurança Antitradição em Grotas
+                        <span class="w-2 h-6 bg-accent mr-3 block rounded-sm"></span>
+                        Mitigação de Prejuízos Comerciais
                     </h3>
                 </div>
-                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent/50 transition-colors shadow-lg">
+                <div class="bg-bg-card p-6 rounded-xl border border-border-dark hover:border-accent transition-all duration-300 shadow-md">
                     <h3 class="font-bold text-text-main text-lg flex items-center">
-                        <svg class="w-6 h-6 mr-3 text-accent" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a1 1 0 001 1h1.586l.707.707a1 1 0 001.414 0L7.414 14H9a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1-1zm13 0a1 1 0 00-1 1v4a1 1 0 001 1h1.586l.707.707a1 1 0 001.414 0L19.414 10H21a1 1 0 001-1V5a1 1 0 00-1-1h-5z" clip-rule="evenodd"></path></svg>
-                        Contratação nas Janelas de Verão
+                        <span class="w-2 h-6 bg-accent mr-3 block rounded-sm"></span>
+                        Cronograma de Alta Demanda (Sazonal)
                     </h3>
                 </div>
              </div>
         </div>
     </section>
 
-    <!-- ÁREA DE OFERTA / VALOR COM GATILHO DE TIMING LOGÍSTICO -->
-    <section id="offer" class="bg-bg-deep py-16 md:py-24 border-b border-border-dark">
+    <!-- SEÇÃO DE OFERTA IRRESISTÍVEL COM CONTRASTE AGRESSIVO -->
+    <section id="offer" class="py-16 md:py-24 border-b border-border-dark bg-gradient-to-b from-[#F7F4EB] to-[#FFFFFF]">
         <div class="container mx-auto max-w-6xl px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
              <div class="order-1 md:order-1 flex justify-center px-4">
-                <img src="https://i.postimg.cc/C5KMyFZv/capa-pare-de-procrastinar-3-em-1.png" alt="Enciclopédia do Garimpeiro" class="w-full max-w-sm md:max-w-full h-auto object-contain rounded-lg shadow-2xl shadow-accent/20">
+                <img src="https://i.ibb.co/ynpkJtyL/capa-a-biblia-do-garimpeiro.jpg" alt="capa-a-biblia-do-garimpeiro" class="w-full max-w-sm md:max-w-md h-auto object-contain rounded-lg shadow-[0_25px_50px_rgba(0,0,0,0.15)] border-4 border-white">
             </div>
             
             <div class="text-center md:text-left order-2 md:order-2">
                 <div class="mb-6">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-text-main">Acesso Exclusivo à <span class="text-accent">Enciclopédia Real</span></h2>
+                    <h2 class="text-3xl md:text-4xl font-black text-text-main tracking-tight">Adquira a <span class="text-accent">Enciclopédia Real do Trecho</span></h2>
+                    <p class="mt-2 text-text-muted font-medium">Acesso imediato e seguro ao manual técnico em formato digital de alta definição.</p>
                 </div>
 
-                <div class="my-6 bg-bg-card p-6 md:p-8 rounded-2xl border border-accent/30 shadow-[0_0_20px_rgba(212,175,55,0.15)]">
-                    <p class="text-lg text-text-main mb-4 font-semibold">O bônus de suporte prático para preenchimento de e-Visa expira em:</p>
+                <div class="my-6 bg-bg-card p-6 md:p-8 rounded-2xl border-2 border-accent shadow-[0_15px_30px_rgba(163,127,20,0.08)]">
+                    <p class="text-xs text-accent font-black uppercase tracking-widest text-center md:text-left mb-4">⚠️ Oportunidade por lote promocional limitado</p>
                     
                     <div id="countdown" class="flex justify-center md:justify-start items-center gap-x-3 mb-6">
-                        <div class="bg-bg-deep border border-border-dark p-3 rounded-lg w-20 text-center">
-                            <span id="hours" class="text-3xl md:text-4xl font-bold text-accent block">00</span>
-                            <span class="text-[10px] text-text-muted uppercase tracking-wider mt-1 block">Horas</span>
+                        <div class="bg-bg-alt border border-border-dark p-3 rounded w-20 text-center shadow-inner">
+                            <span id="hours" class="text-3xl font-black text-text-main block">00</span>
+                            <span class="text-[9px] text-text-muted uppercase font-bold tracking-wider mt-1 block">Horas</span>
                         </div>
-                        <span class="text-2xl font-bold text-accent">:</span>
-                        <div class="bg-bg-deep border border-border-dark p-3 rounded-lg w-20 text-center">
-                            <span id="minutes" class="text-3xl md:text-4xl font-bold text-accent block">00</span>
-                            <span class="text-[10px] text-text-muted uppercase tracking-wider mt-1 block">Minutos</span>
+                        <span class="text-2xl font-black text-accent">:</span>
+                        <div class="bg-bg-alt border border-border-dark p-3 rounded w-20 text-center shadow-inner">
+                            <span id="minutes" class="text-3xl font-black text-text-main block">00</span>
+                            <span class="text-[9px] text-text-muted uppercase font-bold tracking-wider mt-1 block">Minutos</span>
                         </div>
-                        <span class="text-2xl font-bold text-accent">:</span>
-                        <div class="bg-bg-deep border border-border-dark p-3 rounded-lg w-20 text-center">
-                            <span id="seconds" class="text-3xl md:text-4xl font-bold text-accent block">00</span>
-                            <span class="text-[10px] text-text-muted uppercase tracking-wider mt-1 block">Segundos</span>
+                        <span class="text-2xl font-black text-accent">:</span>
+                        <div class="bg-bg-alt border border-border-dark p-3 rounded w-20 text-center shadow-inner">
+                            <span id="seconds" class="text-3xl font-black text-text-main block">00</span>
+                            <span class="text-[9px] text-text-muted uppercase font-bold tracking-wider mt-1 block">Segundos</span>
                         </div>
                     </div>
                     
                     <div class="border-t border-border-dark pt-6 text-center md:text-left">
-                         <p class="text-xl line-through text-text-muted opacity-70">De R$ 197,00</p>
+                         <p class="text-lg line-through text-text-muted font-semibold opacity-60">De R$ 197,00</p>
                         <div class="mt-1">
-                            <p class="text-lg text-text-main mb-1">Por Apenas</p>
-                            <!-- Henrique altera o preço aqui conforme a estratégia dele na Hotmart -->
-                            <p class="text-5xl md:text-6xl font-black text-accent tracking-tight">R$ 67,00</p>
-                            <p class="text-sm text-text-muted mt-2">Acesso imediato e vitalício ao material</p>
+                            <p class="text-sm text-text-muted font-bold uppercase tracking-wider mb-1">Valor do lote atual:</p>
+                            <p class="text-5xl md:text-6xl font-black text-accent tracking-tighter">R$ 67,00</p>
+                            <p class="text-xs text-text-muted mt-3 font-medium">Acesso definitivo. Download imediato do PDF original protegido contra fraudes.</p>
                         </div>
                     </div>
                 </div>
                 
                  <div class="mt-8 text-center md:text-left">
-                    <!-- Lembrar Henrique de atualizar o link de checkout da Hotmart dele aqui -->
-                    <a href="https://go.hotmart.com/L105909335F" target="_blank" rel="noopener noreferrer" class="block w-full sm:w-auto sm:inline-block bg-accent text-bg-deep font-bold text-xl md:text-2xl py-5 px-8 rounded-lg shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:bg-accent-hover hover:-translate-y-1 transition-all duration-300 uppercase" onclick="fbq('track', 'InitiateCheckout');">
-                        Baixar Manual e Blindar Meu Trecho
+                    <a href="https://go.hotmart.com/L105909335F" target="_blank" rel="noopener noreferrer" class="block w-full sm:w-auto sm:inline-block bg-accent text-white font-black text-xl md:text-2xl py-5 px-10 rounded shadow-[0_8px_20px_rgba(163,127,20,0.35)] hover:bg-accent-hover hover:-translate-y-1 transition-all duration-300 uppercase tracking-wide" onclick="fbq('track', 'InitiateCheckout');">
+                        Baixar Guia e Blindar Meu Trecho
                     </a>
                  </div>
             </div>
         </div>
     </section>
 
-    <!-- GARANTIA LEGAL -->
+    <!-- GARANTIA SEM ATRITO -->
     <section class="bg-bg-alt py-16 border-b border-border-dark">
         <div class="container mx-auto max-w-4xl px-6 text-center flex flex-col md:flex-row items-center gap-8">
-            <img src="https://img.icons8.com/plasticine/100/000000/guarantee.png" alt="Garantia" class="w-28 h-28 md:w-32 md:h-32 drop-shadow-[0_0_15px_rgba(212,175,55,0.3)] flex-shrink-0">
+            <img src="https://img.icons8.com/plasticine/100/000000/guarantee.png" alt="Selo de garantia" class="w-28 h-28 md:w-32 md:h-32 flex-shrink-0 drop-shadow-md">
             <div class="text-left">
-                 <h2 class="text-2xl md:text-3xl font-bold mb-4 text-text-main">Garantia Incondicional de 7 Dias</h2>
-                <p class="text-text-muted text-base md:text-lg">Leia o material, analise as tabelas logísticas e as especificações técnicas da mochila de aço. Se em até 7 dias você entender que a realidade do trecho e as informações não servem para o seu plano, solicite o reembolso diretamente na plataforma. 100% do seu dinheiro de volta.</p>
+                 <h2 class="text-2xl md:text-3xl font-black text-text-main tracking-tight">Garantia Incondicional de 7 Dias</h2>
+                <p class="text-text-muted text-base md:text-lg leading-relaxed">Proteção total ao consumidor. Acesse o manual digital, avalie a qualidade das informações técnicas e analise as metodologias de campo. Se em até 7 dias você julgar que o material estruturado não atende às suas expectativas, basta solicitar o reembolso na Hotmart e efetuamos a devolução integral do valor.</p>
             </div>
         </div>
     </section>
 
-    <!-- BIOGRAFIA DO AUTOR BRUTALMENTE CONECTADA (CAPÍTULO 1 DO LIVRO) -->
-    <section class="bg-bg-deep py-16 md:py-24 border-b border-border-dark">
+    <!-- BIOGRAFIA CORRIGIDA: SEM FILHOS, COM 84G E ALTA AUTORIDADE -->
+    <section class="py-16 md:py-24 border-b border-border-dark bg-gradient-to-t from-[#EAE4D5] to-[#FFFFFF]">
         <div class="container mx-auto max-w-3xl px-6 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-accent mb-6">Quem É Henrique Galvão?</h2>
-            <p class="text-base md:text-lg text-text-muted leading-relaxed text-left">
-                Pai de 3 filhos, desembarquei no Suriname aos 24 anos sem nenhuma experiência em florestas tropicais profundas. Senti na pele o peso do garimpo manual na pá e na picareta. Fiquei isolado na mata, passei fome e fui forçado a caçar cobras e mucuras para sobreviver. Conheci o brefo das vacas magras, fui enganado por patrão abusivo, mas resisti e limpei uma porcentagem líquida única de 54 gramas de ouro purificado em maquinários mecanizados. Escrevi este livro para abrir os olhos dos trabalhadores e entregar o mapa exato que me fez voltar vivo e com a missão cumprida para casa.
+            <h2 class="text-3xl md:text-4xl font-black text-text-main mb-6 tracking-tight">Quem Desenvolveu o Guia?</h2>
+            <p class="text-base md:text-lg text-text-muted leading-relaxed text-left font-medium">
+                Meu nome é <span class="text-text-main font-bold">Henrique Galvão</span>. Desembarquei no Suriname aos 24 anos sem nenhuma experiência prévia em florestas tropicais densas[cite: 2]. Vivi na pele as provações do início da mineração manual na pá e na picareta, enfrentei o isolamento logístico e precisei extrair recursos da floresta profunda para manter a integridade física em campo. Conheci de perto os meses de baixa produção do mercado local, mas mantive o foco analítico até dominar as operações de sistemas mecanizados e alcançar uma extração única e líquida de **84 gramas** de ouro purificado. Estruturei este manual com o objetivo central de sintetizar dados técnicos cruciais e diretrizes estratégicas limpas, sem as maquiagens superficiais das mídias sociais, para que profissionais e investidores possam se planejar com realismo e segurança jurídica antes de pisar no campo.
             </p>
         </div>
     </section>
     
-    <!-- FAQ ESPECÍFICO LOGÍSTICO -->
+    <!-- FAQ EDITADO PARA EVITAR SPOILERS -->
     <section class="bg-bg-alt py-16 md:py-20">
         <div class="container mx-auto max-w-3xl px-6">
-            <h2 class="text-3xl font-bold text-center text-text-main mb-10">Perguntas Frequentes</h2>
+            <h2 class="text-3xl font-black text-center text-text-main mb-10 tracking-tight">Perguntas Frequentes</h2>
             <div class="space-y-4">
-                <details class="p-5 bg-bg-card border border-border-dark rounded-xl group cursor-pointer transition-all hover:border-accent/40">
-                    <summary class="font-semibold text-text-main flex justify-between items-center outline-none list-none">
-                        <span>Como funciona o suporte para preenchimento do e-Visa?</span>
-                        <span class="text-accent group-open:rotate-180 transition-transform">▼</span>
+                <details class="p-5 bg-bg-card border border-border-dark rounded-xl group cursor-pointer transition-all hover:border-accent shadow-md">
+                    <summary class="font-bold text-text-main flex justify-between items-center outline-none list-none text-base md:text-lg">
+                        <span>O guia oferece treinamento passo a passo sobre os documentos de entrada?</span>
+                        <span class="text-accent group-open:rotate-180 transition-transform font-bold">▼</span>
                     </summary>
-                    <p class="mt-4 text-text-muted text-sm md:text-base leading-relaxed">Nas páginas internas do livro você terá o link do canal oficial do suporte de compradores. Nossa equipe orienta você na emissão digital das taxas do governo para evitar vistos negados no embarque.</p>
+                    <p class="mt-4 text-text-muted text-sm md:text-base leading-relaxed border-t border-border-dark pt-4">Sim. O material mapeia analiticamente as regras de validade de passaporte nacional para embarque, as etapas eletrônicas oficiais para preenchimento independente de e-Visa junto ao governo estrangeiro e os critérios de imunização exigidos pela imigração federal, agindo como um manual de orientação técnica burocrática.</p>
                 </details>
                 
-                <details class="p-5 bg-bg-card border border-border-dark rounded-xl group cursor-pointer transition-all hover:border-accent/40">
-                    <summary class="font-semibold text-text-main flex justify-between items-center outline-none list-none">
-                        <span>Preciso de quanto dinheiro líquido para aplicar a rota descrita?</span>
-                        <span class="text-accent group-open:rotate-180 transition-transform">▼</span>
+                <details class="p-5 bg-bg-card border border-border-dark rounded-xl group cursor-pointer transition-all hover:border-accent shadow-md">
+                    <summary class="font-bold text-text-main flex justify-between items-center outline-none list-none text-base md:text-lg">
+                        <span>Quem não tem experiência na área consegue entender o conteúdo?</span>
+                        <span class="text-accent group-open:rotate-180 transition-transform font-bold">▼</span>
                     </summary>
-                    <p class="mt-4 text-text-muted text-sm md:text-base leading-relaxed">Conforme detalhado no Capítulo 6, o recomendado é um capital de segurança mínimo de R$ 5.000,00 livres para cobrir deslocamento inicial, hotéis estratégicos em Paramaribo e fretes para grotas profundas.</p>
+                    <p class="mt-4 text-text-muted text-sm md:text-base leading-relaxed border-t border-border-dark pt-4">Sim. Toda a estrutura do e-book foi projetada com base em uma didática clara e direta. O livro foi feito especificamente para que tanto iniciantes do absoluto zero quanto veteranos dominem a lógica de parcerias, os termos nativos e a engenharia básica de funcionamento das grotas sem atritos de entendimento.</p>
                 </details>
                  
-                 <details class="p-5 bg-bg-card border border-border-dark rounded-xl group cursor-pointer transition-all hover:border-accent/40">
-                    <summary class="font-semibold text-text-main flex justify-between items-center outline-none list-none">
-                        <span>O livro é físico ou digital? Como recebo?</span>
-                        <span class="text-accent group-open:rotate-180 transition-transform">▼</span>
+                 <details class="p-5 bg-bg-card border border-border-dark rounded-xl group cursor-pointer transition-all hover:border-accent shadow-md">
+                    <summary class="font-bold text-text-main flex justify-between items-center outline-none list-none text-base md:text-lg">
+                        <span>Como se dá a entrega do manual técnico?</span>
+                        <span class="text-accent group-open:rotate-180 transition-transform font-bold">▼</span>
                     </summary>
-                    <p class="mt-4 text-text-muted text-sm md:text-base leading-relaxed">O material é um livro digital (e-book) em formato PDF de alta resolução. O envio do arquivo e dos acessos aos bônus ocorre instantaneamente por e-mail após a aprovação da compra pela Hotmart.</p>
+                    <p class="mt-4 text-text-muted text-sm md:text-base leading-relaxed border-t border-border-dark pt-4">A distribuição ocorre de forma digital imediata. No exato momento em que o pagamento é liquidado pela Hotmart, o sistema dispara os dados de acesso e o arquivo em alta definição no formato PDF para o e-mail inserido no ato da inscrição.</p>
                 </details>
             </div>
         </div>
     </section>
 
-    <footer class="bg-bg-deep text-text-muted border-t border-border-dark">
-        <div class="container mx-auto max-w-5xl px-6 py-8 text-center text-sm">
-            <p>© 2026 - A Enciclopédia Real do Trecho - Todos os direitos reservados.</p>
-            <p class="mt-2 opacity-60">Este produto não possui vínculo oficial com órgãos governamentais do Suriname e baseia-se em experiências profissionais em mineração autônoma.</p>
+    <!-- FOOTER INSTITUCIONAL -->
+    <footer class="bg-text-main text-bg-alt border-t border-border-dark">
+        <div class="container mx-auto max-w-5xl px-6 py-12 text-center text-sm">
+            <p class="font-bold tracking-wider uppercase text-accent mb-2">A Enciclopédia Real do Trecho</p>
+            <p class="opacity-80">© 2026 - Todos os direitos reservados.</p>
+            <p class="mt-4 opacity-50 text-xs max-w-3xl mx-auto leading-relaxed">Este infoproduto possui finalidade estritamente técnica, jornalística e informativa de compartilhamento de vivências práticas. Não prestamos serviços de agenciamento de vistos, assessoria consular, assessoria jurídica internacional ou ofertas formais de contratos de emprego em solo estrangeiro.</p>
         </div>
     </footer>
     
@@ -327,11 +333,11 @@ src="https://www.facebook.com/tr?id=834853195700998&ev=PageView&noscript=1"
             if (!countdownEl.hours) return;
 
             const duration = 60 * 60 * 1000; 
-            let endTime = localStorage.getItem('countdownEndTimeGarimpo');
+            let endTime = localStorage.getItem('countdownEndTimeGarimpoTextura');
 
             if (!endTime || new Date().getTime() > parseInt(endTime)) {
                 endTime = new Date().getTime() + duration;
-                localStorage.setItem('countdownEndTimeGarimpo', endTime);
+                localStorage.setItem('countdownEndTimeGarimpoTextura', endTime);
             }
 
             const countDownDate = parseInt(endTime);
@@ -342,8 +348,8 @@ src="https://www.facebook.com/tr?id=834853195700998&ev=PageView&noscript=1"
 
                 if (distance < 0) {
                     clearInterval(interval);
-                    localStorage.removeItem('countdownEndTimeGarimpo');
-                    document.getElementById("countdown").innerHTML = "<div class='text-xl font-bold text-accent'>BÔNUS EXPIRADO</div>";
+                    localStorage.removeItem('countdownEndTimeGarimpoTextura');
+                    document.getElementById("countdown").innerHTML = "<div class='text-xl font-bold text-accent tracking-wider uppercase'>LOTE ESGOTADO</div>";
                     return;
                 }
                 
